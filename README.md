@@ -9,6 +9,6 @@ does OCR on it and sees if the word u r looking 4 is in the screenshot
 
 Dependencies
 ------------
-+tesseract-ocr ($ apt-get install tesseract-ocr)
++ tesseract-ocr ($ apt-get install tesseract-ocr)
 
 kthx
