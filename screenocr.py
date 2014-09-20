@@ -13,8 +13,8 @@ def screenshot():
    else:
       print "Unable to get the screenshot."
 
-   if __name__ == "__main__":
-      screenshot()
-      print "working..."
-      txt = pytesser.image_to_string("screenshot.png")
-      print txt
+if __name__ == "__main__":
+   screenshot()
+   print "working..."
+   txt = pytesser.image_to_string("screenshot.png")
+   print txt
