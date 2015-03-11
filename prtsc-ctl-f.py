@@ -2,7 +2,9 @@
 
 import pytesser
 import gtk.gdk
+import os
 
+# take a screenshot
 def screenshot():
    w = gtk.gdk.get_default_root_window()
    sz = w.get_size()
@@ -13,8 +15,10 @@ def screenshot():
    else:
       print "Unable to get the screenshot."
 
+
 if __name__ == "__main__":
    screenshot()
    print "working..."
    txt = pytesser.image_to_string("screenshot.png")
+   os.remove("screenshot.png")
    print txt
