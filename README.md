@@ -6,14 +6,15 @@ prtsc-ctl-f
 This is a simple python script that glues together a random screenshot
 function I found on StackOverflow with the Tesseract OCR library to
 give you an amazingly powerful and innovative tool that takes a screenshot,
-runs it through Tesseract, and dumps the output to stdout.
+runs it through Tesseract, and dumps any recognized text to stdout.
 
 Dependencies
 ------------
-+ tesseract-ocr ($ apt-get install tesseract-ocr)
+    # sudo apt-get install tesseract-ocr
 
 License
 -------
+```
 Copyright (C) 2015  Quentin Young
 
 This program is free software: you can redistribute it and/or modify
@@ -28,3 +29,4 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see http://www.gnu.org/licenses/.
+```
