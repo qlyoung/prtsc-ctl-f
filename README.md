@@ -1,6 +1,5 @@
 prtsc-ctl-f
 ===========
-
 *Search all visible text on your screen*
 
 This is a simple python script that glues together a random screenshot
@@ -8,9 +7,28 @@ function I found on StackOverflow with the Tesseract OCR library to
 give you an amazingly powerful and innovative tool that takes a screenshot,
 runs it through Tesseract, and dumps any recognized text to stdout.
 
+Usage
+-----
+
+    $ python prtsc-ctl-f.py
+    $ python prtsc-ctl-f.py | grep <search term>
+
 Dependencies
 ------------
-    # sudo apt-get install tesseract-ocr
+Debian:
+
+    # apt-get install tesseract-ocr
+    
+Fedora/RH:
+
+    # yum install tesseract
+    
+Other systems:
+
+    $ scrot
+    $ tesseract -c <options> <screenshot name>
+    
+But, you know, Python is fun.
 
 License
 -------
