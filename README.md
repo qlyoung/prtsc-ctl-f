@@ -1,6 +1,6 @@
 prtsc-ctl-f
 ===========
-*Search all visible text on your screen*
+*dump all visible text on your screen*
 
 This is a simple python script that glues together a random screenshot
 function I found on StackOverflow with the Tesseract OCR library to
