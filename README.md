@@ -7,6 +7,13 @@ function I found on StackOverflow with the Tesseract OCR library to
 give you an amazingly powerful and innovative tool that takes a screenshot,
 runs it through Tesseract, and dumps any recognized text to stdout.
 
+Technically you could do this with
+
+    $ scrot
+    $ tesseract -c <configvars> <image>
+
+on any system, but, you know, Python is fun.
+
 Usage
 -----
 
@@ -22,13 +29,6 @@ Debian:
 Fedora/RH:
 
     # yum install tesseract
-    
-Other systems:
-
-    $ scrot
-    $ tesseract -c <options> <screenshot name>
-    
-But, you know, Python is fun.
 
 License
 -------
